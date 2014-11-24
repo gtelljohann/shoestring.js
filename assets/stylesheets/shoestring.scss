@@ -1,0 +1,72 @@
+@import "normalize";
+@import "breadcrumbs";
+@import "navbar";
+@import "button";
+/*$grey: #B6B6B6;
+$light-grey: #F5F5F5;
+*/
+
+
+body {
+	padding-top:50px;
+
+	.container {
+		width: 85%;
+	}
+	h1 {
+		color: black;
+		padding-bottom: 10px;
+		border-bottom: 1px solid $grey;
+
+		small {
+			color: $grey;
+			font-size: small;
+		}
+	}
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+	}
+
+	.row {
+		clear: both;
+	}
+
+	.col-lg-12 { 
+		width: 100%;
+	}
+	.col-sm-8 {
+		width:60%;
+		float:left;
+		/** {
+			width:90%;
+		}*/
+	}
+
+	.col-sm-4 {
+		width:30%;
+		float:left;
+		padding:1%;
+	/** {
+			width:90%;
+		}*/
+	}
+	.col-lg-4 {
+		width:30%;
+		float:left;
+		padding:1%;
+	/** {
+			width:90%;
+		}*/
+	}
+
+	.form-group {
+		label {
+			font-weight:bold;
+		}
+	}
+
+}
+
+
