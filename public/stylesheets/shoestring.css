@@ -324,20 +324,24 @@ table {
   color: black;
   height: 50px;
   width: 100%;
-  display: block; }
+  display: inline-block;
+  line-height: 50px; }
 
 .navbar-inverse {
   background-color: black;
   color: #B6B6B6; }
 
-.nav li {
-  list-style: none; }
-.nav a {
-  text-decoration: none;
-  color: #B6B6B6; }
+.nav {
+  margin: 0px; }
+  .nav li {
+    list-style: none; }
+  .nav a {
+    text-decoration: none;
+    color: #B6B6B6; }
 
 .navbar-header {
-  float: left; }
+  float: left;
+  display: inline-block; }
   .navbar-header a {
     color: #B6B6B6;
     text-decoration: none; }
@@ -348,6 +352,7 @@ table {
 .navbar-fixed-top {
   position: fixed;
   top: 0px; }
+
 
 .btn {
   display: inline-block;
@@ -364,7 +369,7 @@ table {
 $light-grey: #F5F5F5;
 */
 body {
-  padding-top: 50px; }
+  padding-top: 75px; }
   body .container {
     width: 85%; }
   body h1 {
@@ -381,26 +386,60 @@ body {
   body .row {
     clear: both; }
   body .col-lg-12 {
-    width: 100%; }
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box; }
   body .col-sm-8 {
-    width: 60%;
+    width: 66%;
+    padding: 0 5%;
+    box-sizing: border-box;
     float: left;
     /** {
 			width:90%;
 		}*/ }
   body .col-sm-4 {
-    width: 30%;
+    width: 33%;
+    padding: 0 5%;
+    box-sizing: border-box;
     float: left;
-    padding: 1%;
+    /*padding:1%;*/
     /** {
 			width:90%;
 		}*/ }
   body .col-lg-4 {
     width: 30%;
     float: left;
-    padding: 1%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    /*	padding:1%;*/
     /** {
 			width:90%;
 		}*/ }
   body .form-group label {
-    font-weight: bold; }
+    font-weight: bold;
+    display: block; }
+  body .form-group textarea {
+    width: 90%;
+    margin-left: 12px; }
+  body .twitter-link {
+    background: url(http://divasmobilesolutions.com/wp-content/uploads/2012/02/twittericon-e1329880313794.png);
+    height: 35px;
+    width: 35px; }
+  body .facebook-link {
+    background: url(http://divasmobilesolutions.com/wp-content/uploads/2012/02/fbicon-e1329880206895.png);
+    height: 35px;
+    width: 35px; }
+  body .google-plus-link {
+    background: url(http://divasmobilesolutions.com/wp-content/uploads/2012/02/googleicon-e1329880440664.png);
+    height: 35px;
+    width: 35px; }
+  body .linkedin-link {
+    background: url(http://divasmobilesolutions.com/wp-content/uploads/2012/02/linkedinicon-e1329880359341.png);
+    height: 35px;
+    width: 35px; }
+  body .list-unstyled {
+    list-style: none; }
+  body .list-inline li {
+    display: inline-block; }
+  body .img-responsive {
+    width: 100%; }

@@ -8,7 +8,7 @@ $light-grey: #F5F5F5;
 
 
 body {
-	padding-top:50px;
+	padding-top:75px;
 
 	.container {
 		width: 85%;
@@ -35,9 +35,15 @@ body {
 
 	.col-lg-12 { 
 		width: 100%;
+		padding: 0 5%;
+		box-sizing: border-box;
+
 	}
 	.col-sm-8 {
-		width:60%;
+		width:66%;
+		padding: 0 5%;
+		box-sizing: border-box;
+
 		float:left;
 		/** {
 			width:90%;
@@ -45,9 +51,12 @@ body {
 	}
 
 	.col-sm-4 {
-		width:30%;
+		width:33%;
+		padding: 0 5%;
+		box-sizing: border-box;
+
 		float:left;
-		padding:1%;
+		/*padding:1%;*/
 	/** {
 			width:90%;
 		}*/
@@ -55,7 +64,9 @@ body {
 	.col-lg-4 {
 		width:30%;
 		float:left;
-		padding:1%;
+		padding: 0 5%;
+		box-sizing: border-box;
+	/*	padding:1%;*/
 	/** {
 			width:90%;
 		}*/
@@ -64,9 +75,53 @@ body {
 	.form-group {
 		label {
 			font-weight:bold;
+			display: block;
+		}
+		textarea {
+			width: 90%;
+			margin-left: 12px;
 		}
 	}
 
+	.twitter-link {
+		background: url( http://divasmobilesolutions.com/wp-content/uploads/2012/02/twittericon-e1329880313794.png);
+		height:35px;
+		width:35px;
+	}
+
+	.facebook-link {
+		background: url(http://divasmobilesolutions.com/wp-content/uploads/2012/02/fbicon-e1329880206895.png);
+		height:35px;
+		width:35px;
+	}
+
+	.google-plus-link {
+		background: url(http://divasmobilesolutions.com/wp-content/uploads/2012/02/googleicon-e1329880440664.png);
+		height:35px;
+		width:35px;
+	}
+
+	.linkedin-link {
+		background: url(http://divasmobilesolutions.com/wp-content/uploads/2012/02/linkedinicon-e1329880359341.png);
+		height:35px;
+		width:35px;
+	}
+
+	.list-unstyled {
+
+		list-style: none;
+	}
+
+	.list-inline {
+		li {
+			display: inline-block;
+		}
+		
+	}
+
+	.img-responsive {
+		width: 100%;
+	}
 }
 
 
