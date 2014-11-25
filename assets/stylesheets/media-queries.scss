@@ -1,11 +1,16 @@
-@media screen and (min-width: 1200px) {
-	
-@for $i from 1 through 12 {
-	.col-lg-#{$i} {
+@mixin column($i) {
 		width: percentage($i/12);
 		padding: 0 5%;
 		box-sizing: border-box;
 		float:left;
+}
+
+
+@media screen and (min-width: 1200px) {
+	
+@for $i from 1 through 12 {
+	.col-lg-#{$i} {
+		@include column($i);
 	}
 }
 
@@ -31,11 +36,8 @@
 @media screen and (max-width: 1200px) and (min-width: 980px) {
 
 @for $i from 1 through 12 {
-	.col-md-#{$i} {
-		width: percentage($i/12);
-		padding: 0 5%;
-		box-sizing: border-box;
-		float:left;
+	.col-md-#{$i} {	
+		@include column($i);
 	}
 }
 	// .col-md-12 { 
@@ -70,10 +72,7 @@
 
 @for $i from 1 through 12 {
 	.col-sm-#{$i} {
-		width: percentage($i/12);
-		padding: 0 5%;
-		box-sizing: border-box;
-		float:left;
+		@include column($i);
 	}
 }
 	// .col-sm-8 {
