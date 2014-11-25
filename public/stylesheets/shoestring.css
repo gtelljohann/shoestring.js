@@ -369,7 +369,36 @@ table {
 $light-grey: #F5F5F5;
 */
 body {
-  padding-top: 75px; }
+  padding-top: 75px;
+  /*	.col-lg-12 { 
+		width: 100%;
+		padding: 0 5%;
+		box-sizing: border-box;
+
+	}
+	.col-sm-8 {
+		width:66%;
+		padding: 0 5%;
+		box-sizing: border-box;
+
+		float:left;
+	}
+
+	.col-sm-4 {
+		width:33%;
+		padding: 0 5%;
+		box-sizing: border-box;
+
+		float:left;
+	
+	}
+	.col-lg-4 {
+		width:30%;
+		float:left;
+		padding: 0 5%;
+		box-sizing: border-box;
+	
+	}*/ }
   body .container {
     width: 85%; }
   body h1 {
@@ -385,36 +414,6 @@ body {
     clear: both; }
   body .row {
     clear: both; }
-  body .col-lg-12 {
-    width: 100%;
-    padding: 0 5%;
-    box-sizing: border-box; }
-  body .col-sm-8 {
-    width: 66%;
-    padding: 0 5%;
-    box-sizing: border-box;
-    float: left;
-    /** {
-			width:90%;
-		}*/ }
-  body .col-sm-4 {
-    width: 33%;
-    padding: 0 5%;
-    box-sizing: border-box;
-    float: left;
-    /*padding:1%;*/
-    /** {
-			width:90%;
-		}*/ }
-  body .col-lg-4 {
-    width: 30%;
-    float: left;
-    padding: 0 5%;
-    box-sizing: border-box;
-    /*	padding:1%;*/
-    /** {
-			width:90%;
-		}*/ }
   body .form-group label {
     font-weight: bold;
     display: block; }
@@ -443,3 +442,58 @@ body {
     display: inline-block; }
   body .img-responsive {
     width: 100%; }
+
+@media screen and (min-width: 1200px) {
+  .col-lg-12 {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-6 {
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-4 {
+    width: 33.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; } }
+
+@media screen and (max-width: 1200px) and (min-width: 980px) {
+  .col-md-12 {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-6 {
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-4 {
+    width: 33.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; } }
+
+@media screen and (max-width: 980px) and (min-width: 600px) {
+  .col-sm-8 {
+    width: 66.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left;
+    /** {
+			width:90%;
+		}*/ }
+  .col-sm-4 {
+    width: 33.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left;
+    /*padding:1%;*/
+    /** {
+			width:90%;
+		}*/ } }
+
+@media screen and (max-width: 600px) { }

@@ -33,7 +33,7 @@ body {
 		clear: both;
 	}
 
-	.col-lg-12 { 
+/*	.col-lg-12 { 
 		width: 100%;
 		padding: 0 5%;
 		box-sizing: border-box;
@@ -45,9 +45,6 @@ body {
 		box-sizing: border-box;
 
 		float:left;
-		/** {
-			width:90%;
-		}*/
 	}
 
 	.col-sm-4 {
@@ -56,21 +53,15 @@ body {
 		box-sizing: border-box;
 
 		float:left;
-		/*padding:1%;*/
-	/** {
-			width:90%;
-		}*/
+	
 	}
 	.col-lg-4 {
 		width:30%;
 		float:left;
 		padding: 0 5%;
 		box-sizing: border-box;
-	/*	padding:1%;*/
-	/** {
-			width:90%;
-		}*/
-	}
+	
+	}*/
 
 	.form-group {
 		label {
@@ -124,4 +115,4 @@ body {
 	}
 }
 
-
+@import "media-queries";
