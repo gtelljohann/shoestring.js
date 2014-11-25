@@ -1,25 +1,27 @@
 @media screen and (min-width: 1200px) {
 	
-	.col-lg-12 { 
-		width: percentage(12/12);
+@for $i from 1 through 12 {
+	.col-lg-#{$i} {
+		width: percentage($i/12);
 		padding: 0 5%;
 		box-sizing: border-box;
 		float:left;
-
 	}
-	.col-lg-6 { 
-		width: percentage(6/12);
-		padding: 0 5%;
-		box-sizing: border-box;
-		float:left;
+}
 
-	}.col-lg-4 { 
-		width: percentage(4/12);
-		padding: 0 5%;
-		box-sizing: border-box;
-		float:left;
+	// .col-lg-6 { 
+	// 	width: percentage(6/12);
+	// 	padding: 0 5%;
+	// 	box-sizing: border-box;
+	// 	float:left;
 
-	}
+	// }.col-lg-4 { 
+	// 	width: percentage(4/12);
+	// 	padding: 0 5%;
+	// 	box-sizing: border-box;
+	// 	float:left;
+
+	// }
 
 }
 
@@ -28,27 +30,35 @@
 
 @media screen and (max-width: 1200px) and (min-width: 980px) {
 
-	.col-md-12 { 
-		width: percentage(12/12);
+@for $i from 1 through 12 {
+	.col-md-#{$i} {
+		width: percentage($i/12);
 		padding: 0 5%;
 		box-sizing: border-box;
 		float:left;
-
 	}
-	.col-md-6 { 
-		width: percentage(6/12);
-		padding: 0 5%;
-		box-sizing: border-box;
-		float:left;
+}
+	// .col-md-12 { 
+	// 	width: percentage(12/12);
+	// 	padding: 0 5%;
+	// 	box-sizing: border-box;
+	// 	float:left;
 
-	}
-	.col-md-4 { 
-		width: percentage(4/12);
-		padding: 0 5%;
-		box-sizing: border-box;
-		float:left;
+	// }
+	// .col-md-6 { 
+	// 	width: percentage(6/12);
+	// 	padding: 0 5%;
+	// 	box-sizing: border-box;
+	// 	float:left;
 
-	}
+	// }
+	// .col-md-4 { 
+	// 	width: percentage(4/12);
+	// 	padding: 0 5%;
+	// 	box-sizing: border-box;
+	// 	float:left;
+
+	// }
 	
 }
 
@@ -56,32 +66,34 @@
 
 
 @media screen and (max-width:980px) and (min-width: 600px) {
-	$col-width: 81px;
+	// $col-width: 81px;
 
-
-	.col-sm-8 {
-		width: percentage(8/12);
+@for $i from 1 through 12 {
+	.col-sm-#{$i} {
+		width: percentage($i/12);
 		padding: 0 5%;
 		box-sizing: border-box;
-
 		float:left;
-		/** {
-			width:90%;
-		}*/
 	}
+}
+	// .col-sm-8 {
+	// 	width: percentage(8/12);
+	// 	padding: 0 5%;
+	// 	box-sizing: border-box;
+
+	// 	float:left;
+		
+	// }
 
 
-	.col-sm-4 {
-		width: percentage(4/12);
-		padding: 0 5%;
-		box-sizing: border-box;
+	// .col-sm-4 {
+	// 	width: percentage(4/12);
+	// 	padding: 0 5%;
+	// 	box-sizing: border-box;
 
-		float:left;
-		/*padding:1%;*/
-	/** {
-			width:90%;
-		}*/
-	}
+	// 	float:left;
+		
+	// }
 
 
 

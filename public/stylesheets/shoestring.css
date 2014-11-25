@@ -444,8 +444,28 @@ body {
     width: 100%; }
 
 @media screen and (min-width: 1200px) {
-  .col-lg-12 {
-    width: 100%;
+  .col-lg-1 {
+    width: 8.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-2 {
+    width: 16.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-3 {
+    width: 25%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-4 {
+    width: 33.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-5 {
+    width: 41.66667%;
     padding: 0 5%;
     box-sizing: border-box;
     float: left; }
@@ -454,15 +474,60 @@ body {
     padding: 0 5%;
     box-sizing: border-box;
     float: left; }
-  .col-lg-4 {
-    width: 33.33333%;
+  .col-lg-7 {
+    width: 58.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-8 {
+    width: 66.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-9 {
+    width: 75%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-10 {
+    width: 83.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-11 {
+    width: 91.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-lg-12 {
+    width: 100%;
     padding: 0 5%;
     box-sizing: border-box;
     float: left; } }
 
 @media screen and (max-width: 1200px) and (min-width: 980px) {
-  .col-md-12 {
-    width: 100%;
+  .col-md-1 {
+    width: 8.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-2 {
+    width: 16.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-3 {
+    width: 25%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-4 {
+    width: 33.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-5 {
+    width: 41.66667%;
     padding: 0 5%;
     box-sizing: border-box;
     float: left; }
@@ -471,29 +536,97 @@ body {
     padding: 0 5%;
     box-sizing: border-box;
     float: left; }
-  .col-md-4 {
-    width: 33.33333%;
+  .col-md-7 {
+    width: 58.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-8 {
+    width: 66.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-9 {
+    width: 75%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-10 {
+    width: 83.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-11 {
+    width: 91.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-md-12 {
+    width: 100%;
     padding: 0 5%;
     box-sizing: border-box;
     float: left; } }
 
 @media screen and (max-width: 980px) and (min-width: 600px) {
-  .col-sm-8 {
-    width: 66.66667%;
+  .col-sm-1 {
+    width: 8.33333%;
     padding: 0 5%;
     box-sizing: border-box;
-    float: left;
-    /** {
-			width:90%;
-		}*/ }
+    float: left; }
+  .col-sm-2 {
+    width: 16.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-3 {
+    width: 25%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
   .col-sm-4 {
     width: 33.33333%;
     padding: 0 5%;
     box-sizing: border-box;
-    float: left;
-    /*padding:1%;*/
-    /** {
-			width:90%;
-		}*/ } }
+    float: left; }
+  .col-sm-5 {
+    width: 41.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-6 {
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-7 {
+    width: 58.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-8 {
+    width: 66.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-9 {
+    width: 75%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-10 {
+    width: 83.33333%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-11 {
+    width: 91.66667%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; }
+  .col-sm-12 {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    float: left; } }
 
 @media screen and (max-width: 600px) { }
